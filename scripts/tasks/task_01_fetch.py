@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Task 1 — Fetch EOD market data."""
+"""Task 1 — Fetch EOD market data + write LATEST.md."""
 import json, sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +29,11 @@ def run():
     for r in rows:
         lines.append(f"{r['symbol']},{r['close']},{r['prev_close']},{r['change_pct']},{r['volume']}")
     Path(f"data/{date}.csv").write_text("\n".join(lines) + "\n")
-    print(f"fetched {len(rows)} instruments")
+    md = [f"# Market Snapshot — {date}", "", f"_Captured {ts}_", "",
+          "| Symbol | Close | Change |", "|---|---|---|"]
+    for r in rows:
+        md.append(f"| {r['symbol']} | {r['close']} | {r['change_pct']:+.2f}% |")
+    Path("LATEST.md").write_text("\n".join(md) + "\n")
+    print(f"fetched {len(rows)} instruments · LATEST.md written")
 
 if __name__ == "__main__": run()

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "timestamp": "2026-09-25T23:21:45+00:00",
+  "timestamp": "2026-09-25T23:23:49+00:00",
   "instruments": [
     {
       "symbol": "SPX",
@@ -21,7 +21,7 @@
     {
       "symbol": "BTC",
       "ticker": "BTC-USD",
-      "close": 84062.5312,
+      "close": 84063.0,
       "prev_close": 84379.0625,
       "change_pct": -0.375,
       "volume": 34161870848
@@ -29,9 +29,9 @@
     {
       "symbol": "ETH",
       "ticker": "ETH-USD",
-      "close": 2692.8799,
+      "close": 2692.8,
       "prev_close": 2687.3015,
-      "change_pct": 0.208,
+      "change_pct": 0.205,
       "volume": 13391413248
     },
     {
