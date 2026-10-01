@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-01",
+  "timestamp": "2026-10-01T16:30:44+00:00",
+  "instruments": [
+    {
+      "symbol": "SPX",
+      "ticker": "^GSPC",
+      "close": 7644.7202,
+      "prev_close": 7651.54,
+      "change_pct": -0.089,
+      "volume": 1246406000
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "close": 17.09,
+      "prev_close": 16.34,
+      "change_pct": 4.59,
+      "volume": 0
+    },
+    {
+      "symbol": "BTC",
+      "ticker": "BTC-USD",
+      "close": 84316.7578,
+      "prev_close": 83553.8516,
+      "change_pct": 0.913,
+      "volume": 31158456320
+    },
+    {
+      "symbol": "ETH",
+      "ticker": "ETH-USD",
+      "close": 2686.4099,
+      "prev_close": 2683.6794,
+      "change_pct": 0.102,
+      "volume": 13107977216
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "close": 5.239,
+      "prev_close": 5.293,
+      "change_pct": -1.02,
+      "volume": 0
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "close": 102.035,
+      "prev_close": 101.45,
+      "change_pct": 0.577,
+      "volume": 0
+    },
+    {
+      "symbol": "GOLD",
+      "ticker": "GC=F",
+      "close": 4197.6001,
+      "prev_close": 4186.7002,
+      "change_pct": 0.26,
+      "volume": 99082
+    },
+    {
+      "symbol": "OIL",
+      "ticker": "CL=F",
+      "close": 91.78,
+      "prev_close": 90.42,
+      "change_pct": 1.504,
+      "volume": 218644
+    }
+  ]
+}
