@@ -12,3 +12,8 @@ _Captured 2026-10-01T16:30:44+00:00_
 | DXY | 102.035 | +0.58% |
 | GOLD | 4197.6001 | +0.26% |
 | OIL | 91.78 | +1.50% |
+
+## Historical data
+
+- 2 daily snapshots in `data/`
+
