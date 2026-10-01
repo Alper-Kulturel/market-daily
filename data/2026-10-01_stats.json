@@ -1,0 +1,46 @@
+{
+  "annualized_vol_pct": {
+    "SPX": NaN,
+    "BTC": NaN,
+    "GOLD": NaN,
+    "US10Y": NaN,
+    "DXY": NaN
+  },
+  "correlation": {
+    "SPX": {
+      "SPX": NaN,
+      "BTC": NaN,
+      "GOLD": NaN,
+      "US10Y": NaN,
+      "DXY": NaN
+    },
+    "BTC": {
+      "SPX": NaN,
+      "BTC": NaN,
+      "GOLD": NaN,
+      "US10Y": NaN,
+      "DXY": NaN
+    },
+    "GOLD": {
+      "SPX": NaN,
+      "BTC": NaN,
+      "GOLD": NaN,
+      "US10Y": NaN,
+      "DXY": NaN
+    },
+    "US10Y": {
+      "SPX": NaN,
+      "BTC": NaN,
+      "GOLD": NaN,
+      "US10Y": NaN,
+      "DXY": NaN
+    },
+    "DXY": {
+      "SPX": NaN,
+      "BTC": NaN,
+      "GOLD": NaN,
+      "US10Y": NaN,
+      "DXY": NaN
+    }
+  }
+}
